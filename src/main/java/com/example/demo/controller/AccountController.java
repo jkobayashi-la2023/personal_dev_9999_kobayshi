@@ -19,7 +19,9 @@ public class AccountController {
 
 // 競合１
 //競合 note1
-
+	
+	
+//note ブランチ１
 	@Autowired
 	Account account;
 	
