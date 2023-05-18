@@ -13,7 +13,7 @@ import com.example.demo.model.Account;
 @Aspect
 @Component
 public class CheckLoginAspect {
-
+	// コメント
 	@Autowired
 	Account account;
 
