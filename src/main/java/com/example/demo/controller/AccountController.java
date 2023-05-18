@@ -14,6 +14,7 @@ import jakarta.servlet.http.HttpSession;
 @Controller
 public class AccountController {
 
+	// 競合１
 	@Autowired
 	HttpSession session;
 
