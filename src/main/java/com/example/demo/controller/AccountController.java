@@ -19,7 +19,8 @@ public class AccountController {
 
 	@Autowired
 	Account account;
-
+//競合 note1
+	
 	// ログイン画面を表示
 	@GetMapping({ "/", "/login", "/logout" })
 	public String index(
