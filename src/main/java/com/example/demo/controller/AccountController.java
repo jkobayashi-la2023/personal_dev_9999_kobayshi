@@ -14,13 +14,14 @@ import jakarta.servlet.http.HttpSession;
 @Controller
 public class AccountController {
 
-	// 競合１
 	@Autowired
 	HttpSession session;
 
+// 競合１
+//競合 note1
+
 	@Autowired
 	Account account;
-//競合 note1
 	
 	// ログイン画面を表示
 	@GetMapping({ "/", "/login", "/logout" })
